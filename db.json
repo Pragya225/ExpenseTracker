@@ -1,0 +1,6 @@
+{
+  "transactions": [],
+  "savingsSettings": [
+    { "id": 1, "percentage": 20 }
+  ]
+}
