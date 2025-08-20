@@ -3,7 +3,9 @@
 A simple and intuitive Income & Expense Tracker built with **React** and powered by a mock backend using **db.json** (via `json-server`). Track your earnings, expenses, savings, and remaining budget—all in one clean dashboard.
 
 ## 📸 Screenshot
-![App Screenshot](.\src\assets\App_Screenshot.png)
+## App Screenshot  
+![App Screenshot](src/assets/App_Screenshot.png)
+
 
 ##  Features
 
