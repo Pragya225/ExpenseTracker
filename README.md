@@ -1,28 +1,16 @@
-#  Income & Expense Tracker
+# React + Vite
 
-A simple and intuitive Income & Expense Tracker built with **React** and powered by a mock backend using **db.json** (via `json-server`). Track your earnings, expenses, savings, and remaining budget—all in one clean dashboard.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 📸 Screenshot
-## App Screenshot  
-![App Screenshot](src/assets/App_Screenshot.png)
+Currently, two official plugins are available:
 
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-##  Features
+## React Compiler
 
-- ✅ Add income and expense entries with category and description
-- 📊 Real-time calculation of:
-  - Total Income
-  - Total Expenses
-  - Savings 
-  - Remaining Budget
-- 📜 Transaction history with timestamps
-- 🧮 Dynamic progress bar for savings
-- 🗑️ Delete transactions with a single click
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## 🛠️ Tech Stack
+## Expanding the ESLint configuration
 
-- **Frontend**: React + Vite (with functional components and hooks)
-- **Backend**: `json-server` using `db.json` for mock API
-- **Styling**:  CSS 
-- **Axios** (API calls)
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
